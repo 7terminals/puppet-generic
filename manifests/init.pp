@@ -1,6 +1,6 @@
-# Class: puppet-generic
+# Class: generic
 #
-# This module manages puppet-generic
+# This module manages generic
 #
 # Parameters:
 #
@@ -11,7 +11,7 @@
 # Sample Usage:
 #
 # [Remember: No empty lines between comments and class definition]
-class puppet-generic {
+class generic {
 
 
 }

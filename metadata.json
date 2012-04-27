@@ -1,0 +1,20 @@
+{
+  "name": "Francis-generic",
+  "author": "Francis",
+  "description": "",
+  "license": "",
+  "project_page": "https://bitbucket.org/francispereira/puppet-generic/wiki/Home",
+  "source": "https://bitbucket.org/francispereira/puppet-generic/src/",
+  "summary": "",
+  "version": "0.01",
+  "checksums": {
+    "Modulefile": "94c0f4a6763f0cf5e434357ad3b1b0a5",
+    "README": "9eefc553cb906d84192d1a4c1e113e26",
+    "manifests\\init.pp": "90aa9c21134a863cee81697ba3e92011",
+    "manifests\\user.pp": "579c98627c0823f1aa4360903e3e455b",
+    "spec\\spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec\\spec_helper.rb": "ca19ec4f451ebc7fdb035b52eae6e909",
+    "tests\\init.pp": "49a527bde130f54ef76527da0f9409be"
+  },
+  "dependencies": []
+}
