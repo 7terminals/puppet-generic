@@ -1,4 +1,4 @@
-name 'Francis-generic'
+name 'puppet-generic'
 version '0.01'
 
 author 'Francis'
