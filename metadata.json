@@ -9,10 +9,10 @@
   "version": "0.01",
   "checksums": {
     "Modulefile": "b1d45cf7f2fe135e84584729716a20bf",
-    "README": "8bf7eee3ac2dadbbd4e63602d406c73d",
+    "README": "38a69081006d8273723968aeb88fb1ce",
     "manifests\\ChangeLog": "d41d8cd98f00b204e9800998ecf8427e",
     "manifests\\init.pp": "90aa9c21134a863cee81697ba3e92011",
-    "manifests\\user.pp": "0c79c0338a916b7cbcd1b10d65b1bc62",
+    "manifests\\user.pp": "808aaf36f88b76beb1c6191ed8483713",
     "spec\\spec.opts": "a600ded995d948e393fbe2320ba8e51c",
     "spec\\spec_helper.rb": "ca19ec4f451ebc7fdb035b52eae6e909",
     "tests\\init.pp": "cf6460be8caf29797b98a38123db9055"
