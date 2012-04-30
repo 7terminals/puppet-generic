@@ -17,7 +17,7 @@
 #	ssh_authorized_key_type	-	User's public key type. Can be ssh-rsa or ssh-dsa. Defaults to ssh-rsa
 #
 # Actions:
-# 	Creates a user, group and /or ssh_authorised_key for the user
+# 	Creates a user, group and/or ssh_authorised_key for the user
 #
 # Requires:
 #
