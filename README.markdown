@@ -31,6 +31,7 @@ resource generic:user**
 
 Create a user, group and/or ssh_authorised_key for the user
 
+	
 	generic::user {
 		'francis':
 		comment => "Franciss account on the local system",
