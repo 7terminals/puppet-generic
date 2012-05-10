@@ -9,11 +9,11 @@ resource generic:user
 
 generic::user
 
-##Actions:
+###Actions:
 Creates a user, corresponding group and/or ssh_authorised_key
 
-##Parameters:
->
+###Parameters:
+
 	comment					-	A description for the user
 	ensure					-	present or absent. Rresent by default
 	expiry					-	Expiry date for the user
@@ -29,13 +29,12 @@ Creates a user, corresponding group and/or ssh_authorised_key
 	ssh_authorized_key		-	User's public key.
 	ssh_authorized_key_type	-	User's public key type. Can be ssh-rsa or ssh-dsa. Defaults to ssh-rsa
 
-##Sample Usage:
+###Sample Usage:
 
 Create a user, group and/or ssh_authorised_key for the user
 
-	
-	generic::user {
-		'francis':
+	generic::user {	
+		'francis':	
 		comment => "Franciss account on the local system",
 		ensure => 'present',
 		uid => '7001',
