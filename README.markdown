@@ -1,14 +1,15 @@
 #generic
 
-**This module manages base services(ntp, sudo, sshd) and provides custom 
-resource generic:user**
+This module manages base services(ntp, sudo, sshd) and provides custom 
+resource generic:user
+ 
  
 
 ##Definition: 
 	generic::user
 
 ##Actions:
-	Creates a user, corresponding group and/or ssh_authorised_key
+Creates a user, corresponding group and/or ssh_authorised_key
 
 ##Parameters:
 >
