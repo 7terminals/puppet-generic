@@ -9,7 +9,7 @@
   "version": "0.01",
   "checksums": {
     "Modulefile": "b1d45cf7f2fe135e84584729716a20bf",
-    "README.markdown": "6b7c4a82644ac80f6e70618ba4240eb4",
+    "README.markdown": "4d85f0f224abd2b2b34bf5343e97d333",
     "manifests\\ChangeLog": "d41d8cd98f00b204e9800998ecf8427e",
     "manifests\\init.pp": "90aa9c21134a863cee81697ba3e92011",
     "manifests\\user.pp": "808aaf36f88b76beb1c6191ed8483713",
