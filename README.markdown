@@ -33,7 +33,9 @@ resource generic:user**
 								ssh-dsa. Defaults to ssh-rsa
 
 Sample Usage:
-	# creates a user, group and/or ssh_authorised_key for the user
+
+Create a user, group and/or ssh_authorised_key for the user
+
 	generic::user {
 		'francis':
 		comment => "Franciss account on the local system",
@@ -49,3 +51,4 @@ Sample Usage:
 		ssh_authorized_key => "long ssh public key",
 		ssh_authorized_key_type => 'ssh-rsa'
 	}
+	
