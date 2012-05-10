@@ -6,7 +6,8 @@ resource generic:user
  
 
 ##Definition: 
-	generic::user
+
+generic::user
 
 ##Actions:
 Creates a user, corresponding group and/or ssh_authorised_key
