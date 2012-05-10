@@ -24,7 +24,7 @@ Creates a user, corresponding group and/or ssh_authorised_key
 								Valid values are true, false
 	password				-	The user’s password, in whatever encrypted format the local system requires
 	shell					-	The user's login shell
-	system					-	Whether the user is a system user, according to the OS’s criteria
+	system					-	Whether the user is a system user, according to the OS's criteria
 	uid						-	The user ID; must be specified numerically.
 	ssh_authorized_key		-	User's public key.
 	ssh_authorized_key_type	-	User's public key type. Can be ssh-rsa or ssh-dsa. Defaults to ssh-rsa
@@ -33,8 +33,8 @@ Creates a user, corresponding group and/or ssh_authorised_key
 
 Create a user, group and/or ssh_authorised_key for the user
 
-	generic::user {	
-		'francis':	
+	generic::user {
+		'francis':
 		comment => "Franciss account on the local system",
 		ensure => 'present',
 		uid => '7001',
