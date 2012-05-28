@@ -1,6 +1,6 @@
-# Class: generic::user
+# Class: generic::localuser
 #
-# This module manages generic::user
+# This module manages generic::localuser
 #
 # Parameters:
 #	comment					- 	A description for the user
@@ -28,7 +28,7 @@
 #
 # Sample Usage:
 # 
-#	generic::user {
+#	generic::localuser {
 #		'francis':
 #		comment => "Franciss account on the local system",
 #		ensure => 'present',
@@ -44,7 +44,7 @@
 #	}
 #
 # [Remember: No empty lines between comments and class definition]
-define generic::user ($allowdupe = undef,
+define generic::localuser ($allowdupe = undef,
 	$comment = undef,
 	$ensure = 'present',
 	$expiry = undef,

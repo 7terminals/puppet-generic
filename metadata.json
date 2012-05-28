@@ -9,13 +9,12 @@
   "version": "0.01",
   "checksums": {
     "Modulefile": "b1d45cf7f2fe135e84584729716a20bf",
-    "README.markdown": "4d85f0f224abd2b2b34bf5343e97d333",
-    "manifests\\ChangeLog": "d41d8cd98f00b204e9800998ecf8427e",
+    "README.markdown": "22b3f838292ff8def614a61e9fdfdfa0",
     "manifests\\init.pp": "90aa9c21134a863cee81697ba3e92011",
-    "manifests\\user.pp": "808aaf36f88b76beb1c6191ed8483713",
+    "manifests\\localuser.pp": "94375c7a71cbd7585293a3b0af88edae",
     "spec\\spec.opts": "a600ded995d948e393fbe2320ba8e51c",
     "spec\\spec_helper.rb": "ca19ec4f451ebc7fdb035b52eae6e909",
-    "tests\\init.pp": "cf6460be8caf29797b98a38123db9055"
+    "tests\\init.pp": "d16a60e4ab4491b5aeb55b06a49e85b8"
   },
   "dependencies": []
 }

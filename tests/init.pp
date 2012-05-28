@@ -1,4 +1,4 @@
-generic::user {
+generic::localuser {
 	'francis':
 	comment => "Franciss account on the local system",
 	ensure => 'present',
