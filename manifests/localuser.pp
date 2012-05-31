@@ -1,6 +1,6 @@
-# Class: generic::localuser
+# Define: generic::localuser
 #
-# This module manages generic::localuser
+# TThis file provides definition generic::localuser
 #
 # Parameters:
 #	comment					- 	A description for the user
