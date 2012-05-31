@@ -1,13 +1,12 @@
 #generic
 
-This module manages base services(ntp, sudo, sshd) and provides custom 
-resource generic:user
+This module manages base components(timezone)
  
  
 
 ##Definition: 
 
-generic::user
+##generic::user
 
 ###Actions:
 Creates a user, corresponding group and/or ssh_authorised_key
@@ -48,4 +47,20 @@ Create a user, group and/or ssh_authorised_key for the user
 		ssh_authorized_key => "long ssh public key",
 		ssh_authorized_key_type => 'ssh-rsa'
 	}
-	
+
+##generic::localtime
+
+###Actions:
+Sets timezone on the server
+
+###Parameters:
+
+	zonefile 	-	Path of time zone file. Usually /usr/share/zoneinfo/America/<location>
+###Sample Usage:
+
+Create a user, group and/or ssh_authorised_key for the user
+
+	generic::timezone {
+		'New_York':
+		zonefile => "/usr/share/zoneinfo/America/New_York",
+	}
