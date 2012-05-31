@@ -31,7 +31,7 @@ Creates a user, corresponding group and/or ssh_authorised_key
 ###Sample Usage:
 
 Create a user, group and/or ssh_authorised_key for the user
-:::text
+
 	generic::user {
 		'francis':
 		comment => "Franciss account on the local system",
@@ -59,7 +59,7 @@ Sets timezone on the server
 ###Sample Usage:
 
 Create a user, group and/or ssh_authorised_key for the user
-:::text
+
 	generic::timezone {
 		'New_York':
 		zonefile => "/usr/share/zoneinfo/America/New_York",
