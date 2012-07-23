@@ -1,9 +1,9 @@
 name 'puppet-generic'
-version '0.01'
+version '0.1'
 
 author 'Francis Pereira'
 license ''
-project_page 'https://bitbucket.org/francispereira/puppet-generic/overview'
-source 'https://bitbucket.org/francispereira/puppet-generic/src/'
+project_page 'https://github.com/francispereira/puppet-generic'
+source ''
 summary ''
 description ''
