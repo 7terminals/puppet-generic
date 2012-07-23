@@ -9,13 +9,13 @@
   "version": "0.01",
   "checksums": {
     "Modulefile": "b1d45cf7f2fe135e84584729716a20bf",
-    "README.markdown": "a2212c3e3936981e29321e0876e91035",
-    "manifests\\init.pp": "90aa9c21134a863cee81697ba3e92011",
-    "manifests\\localuser.pp": "58b370f4164c3e275946af5fd769bd37",
+    "README.markdown": "775f396afcd55f3cf22e8986f13143f4",
+    "manifests\\init.pp": "ba41ea247b2c8a2e342db3b7661512ad",
+    "manifests\\localuser.pp": "c7b739e647708aab7c2b93dd4cc6f51b",
     "manifests\\timezone.pp": "a69b36d91901516f90d31b8f3c978c3a",
-    "spec\\spec.opts": "a600ded995d948e393fbe2320ba8e51c",
-    "spec\\spec_helper.rb": "ca19ec4f451ebc7fdb035b52eae6e909",
-    "tests\\init.pp": "d16a60e4ab4491b5aeb55b06a49e85b8"
+    "spec\\spec.opts": "eb547b31184006017b3f6d6e2f1bbc12",
+    "spec\\spec_helper.rb": "967bc25e920cdefa7c53fc433c3fc057",
+    "tests\\init.pp": "747f70a954b59f38b85942a36314e92d"
   },
   "dependencies": []
 }

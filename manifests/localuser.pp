@@ -1,6 +1,6 @@
 # Define: generic::localuser
 #
-# TThis file provides definition generic::localuser
+# This file provides definition generic::localuser
 #
 # Parameters:
 #	comment					- 	A description for the user
@@ -40,6 +40,7 @@
 #		password => "encrypted password",
 #		shell => '/bin/bash',
 #		system => 'false',
+#		ssh_authorized_key => "long_ssh_public_key",
 #		ssh_authorized_key_type => 'ssh-rsa'
 #	}
 #

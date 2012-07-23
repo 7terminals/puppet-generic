@@ -1,6 +1,6 @@
 generic::localuser {
 	'francis':
-	comment => "Franciss account on the local system",
+	comment => "Francis account on the local system",
 	ensure => 'present',
 	uid => '7001',
 	gid => '7001',
@@ -10,6 +10,6 @@ generic::localuser {
 	password => "encrypted password",
 	shell => '/bin/bash',
 	system => false,
-	ssh_authorized_key => "long ssh public key",
+	ssh_authorized_key => "long_ssh_public_key",
 	ssh_authorized_key_type => 'ssh-rsa'
 }

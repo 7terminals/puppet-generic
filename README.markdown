@@ -1,12 +1,13 @@
 #generic
 
-This module manages base components(timezone)
+This module manages base components(timezone) and provides resource definition generic::localuser that manages a user, group and /or ssh_authorised_key. 
+This makes managing users via puppet a lot simpler - one resource for user, group and ssh_authorised_key 
  
  
 
 ##Definition: 
 
-##generic::user
+##generic::localuser
 
 ###Actions:
 Creates a user, corresponding group and/or ssh_authorised_key
@@ -32,7 +33,7 @@ Creates a user, corresponding group and/or ssh_authorised_key
 
 Create a user, group and/or ssh_authorised_key for the user
 
-	generic::user {
+	generic::localuser {
 		'francis':
 		comment => "Franciss account on the local system",
 		ensure => 'present',
@@ -56,6 +57,7 @@ Sets timezone on the server
 ###Parameters:
 
 	zonefile 	-	Path of time zone file. Usually /usr/share/zoneinfo/America/<location>
+
 ###Sample Usage:
 
 Create a user, group and/or ssh_authorised_key for the user
