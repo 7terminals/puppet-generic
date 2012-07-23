@@ -1,9 +1,21 @@
-name 'puppet-generic'
-version '0.1'
-
-author 'Francis Pereira'
-license ''
-project_page 'https://github.com/francispereira/puppet-generic'
-source ''
-summary ''
-description ''	
+{
+  "name": "puppet-generic",
+  "author": "Francis Pereira",
+  "description": "",
+  "license": "",
+  "project_page": "https://github.com/francispereira/puppet-generic",
+  "source": "",
+  "summary": "",
+  "version": "0.0.1",
+  "checksums": {
+    "Modulefile": "c497e65fd6dba0f225aa15cd4abc32e2",
+    "README.markdown": "775f396afcd55f3cf22e8986f13143f4",
+    "manifests\\init.pp": "ba41ea247b2c8a2e342db3b7661512ad",
+    "manifests\\localuser.pp": "c7b739e647708aab7c2b93dd4cc6f51b",
+    "manifests\\timezone.pp": "a69b36d91901516f90d31b8f3c978c3a",
+    "spec\\spec.opts": "eb547b31184006017b3f6d6e2f1bbc12",
+    "spec\\spec_helper.rb": "967bc25e920cdefa7c53fc433c3fc057",
+    "tests\\init.pp": "747f70a954b59f38b85942a36314e92d"
+  },
+  "dependencies": []
+}
