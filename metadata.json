@@ -12,7 +12,7 @@
     "README.markdown": "775f396afcd55f3cf22e8986f13143f4",
     "manifests\\init.pp": "ba41ea247b2c8a2e342db3b7661512ad",
     "manifests\\localuser.pp": "c7b739e647708aab7c2b93dd4cc6f51b",
-    "manifests\\timezone.pp": "a69b36d91901516f90d31b8f3c978c3a",
+    "manifests\\timezone.pp": "9c087595e129e3416df452ce6f72644b",
     "spec\\spec.opts": "eb547b31184006017b3f6d6e2f1bbc12",
     "spec\\spec_helper.rb": "967bc25e920cdefa7c53fc433c3fc057",
     "tests\\init.pp": "747f70a954b59f38b85942a36314e92d"
