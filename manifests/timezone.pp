@@ -18,7 +18,7 @@
 #	}
 #
 # [Remember: No empty lines between comments and class definition]
-define generic::timezone ($zonefile) {
+define generic::timezone ($zone) {
 	case $::operatingsystem {
 		debian, ubuntu, centos, redhat, oel, linux, fedora : {
 			$supported = true
@@ -36,14 +36,14 @@ define generic::timezone ($zonefile) {
 		file {
 			'/etc/timezone' :
 				ensure => present,
-				content => ${zonefile},
+				content => $zone,
 				owner => root,
 				group => root,
 		}
 		file {
 			'/etc/localtime' :
 				ensure => link,
-				target => "/usr/share/zoneinfo/${zonefile}",
+				target => "/usr/share/zoneinfo/${zone}",
 				owner => root,
 				group => root,
 		}
