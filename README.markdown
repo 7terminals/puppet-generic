@@ -22,7 +22,7 @@ Setup
 * Everything related to user management, including groups, SSH keys
 * System timezone
 	
-*** Beginning with generic::localhost
+### Beginning with generic::localhost
 
 Create a user, corresponding group and/or ssh_authorised_key
 
@@ -43,7 +43,7 @@ Create a user, corresponding group and/or ssh_authorised_key
       expiry                  => "2099-12-1"
     }
 
-*** Beginning with generic::timezone
+### Beginning with generic::timezone
 
 Set the system timezone
 
@@ -58,71 +58,71 @@ The `generic::localuser` and `generic::timezone` resource definitions have sever
 
 **Parameters within `generic::localuser`**
 
-****`comment`
+####`comment`
 
 A description for the user.
 
-****`ensure`
+####`ensure`
 
 Create or remove the user.
 Valid values are present, absent.
 Default is present.
 
-****`uid`
+####`uid`
 
 The user ID. Must be specified numerically.
 
-****`gid`
+####`gid`
 
 The user’s primary group. Must be specified numerically.
 
-****`groups`
+####`groups`
 
 The groups to which the user belongs. The primary group should not be listed, and groups should be identified by name rather than by GID. Multiple groups should be specified as an array.
 
-****`home`
+####`home`
 
 The home directory of the user.
 
-****`managehome`
+####`managehome`
 
 Whether to manage the home directory when managing the user.
 Defaults to false. Valid values are true, false.
 
-****`password`
+####`password`
 
 The user's password, in whatever encrypted format the local system requires.
 
-****`shell`
+####`shell`
 
 The user's login shell.
 
-****`system`
+####`system`
 
 Whether the user is a system user, according to the OS's criteria.
 
-****`ssh_authorized_key`
+####`ssh_authorized_key`
 
 User's public key.
 
-****`ssh_authorized_key_type`
+####`ssh_authorized_key_type`
 
 User's public key type. Can be ssh-rsa or ssh-dsa.
 Defaults to ssh-rsa.
 
-****`allowdupe`
+####`allowdupe`
 
 Whether to allow duplicate GIDs.
 Defaults to false. Valid values are true, false.
 
-****`expiry`
+####`expiry`
 
 The expiry date for this user. Must be provided in a zero-padded YYYY-MM-DD format - e.g. 2010-02-19.
 
 
 **Parameters within `generic::localuser`**
 
-****`timezone`
+####`timezone`
 
 Name of the time zone.
 
