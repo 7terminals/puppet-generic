@@ -1,10 +1,10 @@
-generic::localuser { 'jude':
-  comment                 => "jude's account on the local system",
+generic::localuser { 'example.com':
+  comment                 => "example.com account on the local system",
   ensure                  => 'present',
   uid                     => '7001',
   gid                     => '7001',
-  groups                  => ['wheel', 'jude'],
-  home                    => '/home/jude',
+  groups                  => 'wheel',
+  home                    => '/home/example.com',
   managehome              => true,
   password                => "encrypted password",
   shell                   => '/bin/bash',
@@ -14,10 +14,6 @@ generic::localuser { 'jude':
   allowdupe               => false,
   expiry                  => "2015-10-28"
 }
-
-#generic::domUwallclock { 'domUwallclock':
-#  ensure => 'present',
-#}
 
 generic::timezone { 'Calcutta':
   zone => 'Asia/Calcutta',

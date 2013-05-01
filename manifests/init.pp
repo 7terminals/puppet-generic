@@ -1,17 +1,9 @@
 # Class: generic
 #
-# This module manages generic
+# The generic module manages base components(timezone) and
+# provides a resource definition that manages a user, group and/or SSH key.
 #
-# Parameters:
+# See localuser.pp and timezone.pp for usage and more information.
 #
-# Actions:
-#
-# Requires:
-#
-# Sample Usage:
-#
-# [Remember: No empty lines between comments and class definition]
 class generic {
-
-
 }

@@ -8,16 +8,13 @@
 # Actions:
 # 	Sets the timezone on the server
 #
-# Requires:
-#
 # Sample Usage:
 #
 # generic::timezone {
 # 	'New_York':
 # 	zone => 'America/New_York',
-#}
+# }
 #
-# [Remember: No empty lines between comments and class definition]
 define generic::timezone ($zone, $ensure = 'present') {
   # we support only Debian and RedHat
   case $::osfamily {
