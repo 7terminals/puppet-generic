@@ -20,7 +20,7 @@
 # [Remember: No empty lines between comments and class definition]
 define generic::timezone ($zone) {
 	case $::operatingsystem {
-		debian, ubuntu, centos, redhat, oel, linux, fedora : {
+		debian, ubuntu, centos, redhat, oel, linux, fedora, Amazon : {
 			$supported = true
 		}
 		default : {
